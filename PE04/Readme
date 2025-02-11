@@ -1,0 +1,16 @@
+# Program Overview: 
+
+## Input
+- **Cities List**: Displays a list of all available cities. Each city has a clickable link.
+- **Add City**: Provides a form for users to add a new city. 
+
+## Process
+- The **Cities List** retrieves city the city data
+- **Add City** processes the processes the users submission from the form.
+- The **City Details** route uses the useParams hook to retrieve a cities data by its identifier and display it on the main page 
+- The user is redirected back to the Cities list after entering a new city
+
+## Output
+- **Cities List**: Shows a list of the cities
+- **City Details**: Displays details about a selected city.
+- **Redirection**: Improves user experience by re-directing users to the main page after making a form entry. 
